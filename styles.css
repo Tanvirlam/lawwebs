@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+ }
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+img{}
+.container{
+    width: 1100px;
+    margin: auto;
+    overflow: hidden;
+
+}
+header{
+    padding: 30px 0;
+}
+.logo{
+    width: 20%;
+    float: left;
+    color: #28377e;
+}
+.logo a{
+   text-decoration: none;
+   font-size: 17px;
+   text-transform: uppercase;
+
+}
+.logo  a h1{}
+.logo a h1:hover{}
+
+
+nav{
+    text-align: right;
+    width: 80%;
+    float: left;
+}
+nav ul{}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+nav ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #28377e;
+    font-weight: 600;
+    display: block;
+}
+nav ul li a:hover{}
+
+
+.banner-section{
+    min-height: 567px;
+    background: url(banner2.png), url(banner.png); 
+    background-size: contain, cover;      
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, center;
+   
+    
+}
+.banner-content{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.banner-content h1{
+   color: #fff;
+    font-size: 50px;
+    width: 476px;
+    text-transform: uppercase;
+}
+.arrow-down{
+    position: absolute;
+    bottom: -35px;
+    left: 59%;
+    color: #fff;
+    font-size: 30px;
+    transform: translateX(-50%);
+}
+
+.section{
+    padding: 120px 0 200px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.content{
+    float: left;
+    width: 50%;
+}
+.heading span{
+    width: 40px;
+    height: 4px;
+    background: #e44f23;
+    display: block;
+}
+.heading h1{
+    margin: 15px 0;
+    color: #204f87;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+p{
+   
+    font-size: 15px;
+    margin-bottom: 16px;
+    color: #b0b0b1;
+    
+}
+.img{
+    float: right;
+}
+
+.who-are-we-img{
+    width: 50%;
+    float: left;
+}
+
+.working-section{
+    background-color: #f7f8f8;
+    text-align: center;
+    overflow: hidden;
+    padding: 80px 0;
+}
+
+.working-section .heading span{
+    background: #e44f23;
+    width: 40px;
+    height: 6px;
+    display: block;
+    margin: 0 auto;
+}
+.contnt{
+    position: relative;
+    width: 33.33%;
+    float: left;
+}
+.what-we-do{
+   padding: 21px;
+   }
+.what-we-do::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#204f87+0,204f87+100&0+0,0.71+100 */
+background: -moz-linear-gradient(top,  rgba(32,79,135,0) 0%, rgba(32,79,135,0.71) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(32,79,135,0) 0%,rgba(32,79,135,0.71) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(32,79,135,0) 0%,rgba(32,79,135,0.71) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00204f87', endColorstr='#b5204f87',GradientType=0 ); /* IE6-9 */
+
+}
+.asilo-img{
+    width: 100%;
+}
+.what-we-do h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    font-size: 22px;
+    transform: translate(-50%,-50%);
+}
+.what-we-do a{
+    position: absolute;
+    bottom: 11%;
+    left: 50%;
+    color: #fff;
+    font-size: 22px;
+    transform: translate(-50%,-11%);
+}
+
+
+
+
+.clint-section{
+    padding: 80px;
+    overflow: hidden;
+    background-image: url(contes.png);
+}
+.clint-4{
+    width: 30%;
+    float: left;
+    overflow: hidden;
+}
+.clint-header{
+    margin-top: 120px;
+}
+.clint-header h1{color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 16px 0;}
+.clint-header a{}
+.clint-header p{
+    font-size: 14px;
+    margin-right: 20px;
+    color: #57779cfc;
+}
+.clint-2{
+    width: 70%;
+    float: right;
+}
+.col-2{
+    float: left;
+    padding: 10px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+} 
+.col-2 h3{
+     position: absolute;
+     bottom: 10%;
+     left: 50%;
+     color: #fff;
+     font-size: 20px;
+     transform: translate(-50%,-10%);
+}
+.col-2::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#204f87+0,204f87+100&0+0,0.71+100 */
+background: -moz-linear-gradient(top,  rgba(32,79,135,0) 0%, rgba(32,79,135,0.71) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(32,79,135,0) 0%,rgba(32,79,135,0.71) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(32,79,135,0) 0%,rgba(32,79,135,0.71) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00204f87', endColorstr='#b5204f87',GradientType=0 ); /* IE6-9 */
+
+}
+
+.contain-section{
+    background: #fff;
+    padding: 70px 0;
+}
+.contain-header{
+    text-align: center;
+}
+.contain-header .heading span{
+    width: 40px;
+    height: 6px;
+    background: #e44f23;
+    display: block;
+    margin: 0 auto;
+}
+.contain-details{
+    width: 100%;
+    overflow: hidden;
+}
+.contain-sub{
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    display: block;
+}
+.contain-sub h2{
+    text-transform: uppercase;
+    color: #2b2f85;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.contain-sub p{
+    color: #b0b0b1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    text-align: justify;
+}
+.contain-sub a{
+    color: #f2622c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.sty{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.form-section{
+    padding: 70px 0;
+    background-color: #28377e;
+}
+.contact-heading{
+    color: #fff;
+    text-align: center;
+}
+.contact-heading .heading span{
+    width: 41px;
+    height: 6px;
+    display: block;
+    margin: 0 auto;
+    background: #e44f23;
+    
+}
+.contact-heading .heading h1{
+    color: #fff;
+    text-transform: uppercase;
+}
+form input{
+    width: 100%;
+    background: transparent;
+    border-bottom: 1px solid #4759a7;
+    color: #fff;
+    border: none;
+    padding: 16px;
+    
+}
+form input::placeholder{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+   
+}
+.btn button{
+    background: #ff5c2e;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    padding: 11px 82px;
+    font-size: 15px;
+    display: block;
+    border: 1px solid #ff5c2e;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+footer{
+    background: #020727;
+    padding: 35px 0;
+}
+.copyright{
+    width: 50%;
+    float: left;
+}
+.copyright p{
+    color: #999999;
+    font-size: 16px;
+    font-weight: 400;
+   line-height: 1.6;
+   text-align: center;
+}
+.sociallink{
+    width: 50%;
+    float: left;
+}
+.sociallink ul{
+ float: right;
+
+}
+.sociallink ul li{
+    list-style: none;
+     display: block;
+
+    
+}
+.sociallink ul li a{
+    font-size: 20px;
+    background: #020727;
+    color: #fff;
+    width: 36px;
+    height: 36px;
+    line-height: 30px;
+    text-align: center;
+    border: 7px solid #020727;
+}
+.sociallink ul li a:hover{}
